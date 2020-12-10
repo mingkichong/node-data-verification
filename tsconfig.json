@@ -14,6 +14,7 @@
     "declaration": true,
     "declarationMap": true,
     "downlevelIteration": true,
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "module": "commonjs",
     // "noImplicitReturns": true,
