@@ -4,7 +4,9 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "build": "yarn install && tsc --build tsconfig.json --clean",
+    "build": "yarn install && tsc --build tsconfig.json",
+    "build_go":"yarn build && yarn go",
+    "go":"node lib/index.js",
     "play": "ts-node src/index.ts"
   },
   "dependencies": {

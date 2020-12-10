@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "outDir":"compiled",
+    "rootDir":"./src",
+    "outDir":"lib",
     "forceConsistentCasingInFileNames": true,
     "lib": [
       "DOM",
@@ -24,6 +25,6 @@
     "strict": true,
   },
   "include": [
-    "src/*"
+    "src/**/*"
   ],
 }
